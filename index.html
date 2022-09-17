@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title>Ideation 2022</title>
+    <link rel="shortcut icon" href="./assets/img/logos/favicon.ico" />
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body onload="typeWriter()" id="page-top">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top uk-visible@m shadow-sm" id="mainNav">
+        <div class="container">
+            <a class="" href="./index.html">
+                <img width="150px" src="./assets/img/logos/Ideation logo.png" alt="" />
+            </a>
+
+            <button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right"
+                type="button" data-toogle="collapse" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse boundary-align" id="navbarResponsive">
+                <ul class="nav navbar-nav uk-align-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#schedule">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#rules">Rules</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://brmworld.org" target="_blank">Collaboration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./team.html">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#video">Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav list-unstyled">
+                    <li class="nav-item">
+                        <a class="uk-button-default btn-outline-info nav-link text-white btn-reg text-center"
+                            target="_blank" href="https://forms.gle/bU8BUNK9jszss9bM6">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top uk-hidden@m" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html"><img width="150px" class="p-2"
+                    src="./assets/img/logos/Ideation logo.png" alt="" /></a>
+
+            <button class="uk-button-default uk-margin-small-right" type="button"
+                uk-toggle="target: #offcanvas-nav-primary">
+                <span class="text-white" uk-icon="icon: menu"></span>
+            </button>
+
+            <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true;">
+                <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+                    <ul class="uk-nav uk-nav-primary uk-nav-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#schedule">Schedule</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#rules">Rules</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://brmworld.org" target="_b">Collaboration</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./team.html">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#video">Video</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item register-nav">
+                            <a class="nav-link text-white" href="https://forms.gle/bU8BUNK9jszss9bM6"
+                                uk-toggle>Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="slider uk-flex uk-flex-center uk-flex-middle">
+            <div class="content-bg">
+                <div class="content">
+                    <div class="text-center">
+                        <p class="display-3 text-white font-weight-bolder mb-0" id="ideation"></p>
+                        <div class="timer-container container">
+                            <div class="uk-width-1-1 h-100 uk-flex uk-flex-middle uk-flex-center">
+                                <div class="uk-text-center">
+                                    <div class="uk-inline timer">
+                                        <div id="days" class="display-4 text-center text-light font-weight-bold mytime">
+                                        </div>
+                                        <div id="day" class="display-5 text-center text-light mytimedescription">
+                                            Days
+                                        </div>
+                                    </div>
+                                    <span class="display-4 text-center text-light font-weight-bold colon">:</span>
+                                    <div class="uk-inline timer">
+                                        <div id="hours"
+                                            class="display-4 text-center text-light font-weight-bold mytime colon">
+                                        </div>
+                                        <div id="hour" class="display-5 text-center text-light mytimedescription">
+                                            Hours
+                                        </div>
+                                    </div>
+                                    <span class="display-4 text-center text-light font-weight-bold colon">:</span>
+                                    <div class="uk-inline timer">
+                                        <div id="minutes"
+                                            class="display-4 text-center text-light font-weight-bold mytime"></div>
+                                        <div id="minute" class="display-5 text-center text-light mytimedescription">
+                                            Mins
+                                        </div>
+                                    </div>
+                                    <span class="display-4 text-center text-light font-weight-bold colon">:</span>
+                                    <div class="uk-inline timer">
+                                        <div id="seconds"
+                                            class="display-4 text-center text-light font-weight-bold mytime"></div>
+                                        <div id="second" class="display-5 text-center text-light mytimedescription">
+                                            Sec
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <p class="h3 text-white">Time | Date</p> <br> -->
+                        <a class="uk-button uk-button-default btn-outline-info btn-xl text-uppercase register-now"
+                            role="button" href="">Register now!</a>
+                        <br /><br /><br /><br />
+                        <div>
+                            <p class="text-white">
+                                An Event by
+                                <span class="font-weight-bolder uk-text-primary">IETE Students’ Forum, and EDC
+                                    SIESGST</span>
+                            </p>
+                            <div>
+                                <img width="80px" class="bg-white p-2 rounded-circle" src="./assets/img/logos/iete.png"
+                                    alt="" />
+                                <img width="101px" class="bg-white p-2" src="./assets/img/logos/gst.png" alt="" />
+                                <img width="100px" class="bg-white p-1" src="./assets/img/logos/edclogo.jpg" alt="" />
+                            </div>
+                        </div>
+
+                        <!-- <div>
+                <h1 class="text-white">X</h1>
+              </div>
+              <div>
+                <p class="text-white">
+                  In Collaboration with
+                  <span class="font-weight-bolder uk-text-primary"
+                    >Blue Ribbon Movement</span
+                  >
+                </p>
+                <img
+                  width="200px"
+                  class="p-2"
+                  src="./assets/img/logos/BRM logo.jpeg"
+                  alt=""
+                />
+              </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <a class="toptop btn btn-sm btn-dark" href="" uk-totop uk-scroll></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit-icons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
