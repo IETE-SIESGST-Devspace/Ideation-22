@@ -3,6 +3,36 @@ nav {
   /* background-color: #0b1781 !important; */
 }
 
+header{
+  width: 100%;
+}
+
+#about{
+  width: 100%;
+}
+
+#schedule{
+  width: 100%;
+}
+
+#rules #video #sponsor #contact footer{
+  width: 100%;
+}
+
+
+
+.hori-line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hrline{
+  height: 2px;
+  background-color: red;
+  width: 85%;
+}
+
 a.nav-link.js-scroll-trigger:hover {
   transform: scale(1.3);
   font-weight: bolder !important;
@@ -12,6 +42,8 @@ a.nav-link.active,
 a.nav-link:hover {
   font-weight: bolder !important;
 }
+
+
 
 .slider {
   width: 100%;
@@ -87,6 +119,271 @@ a.nav-link:hover {
   font-weight: 600 !important;
 }
 
+
+
+
+
+
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  /* margin: auto; */
+  padding: 30px;
+}
+
+/* Caption text */
+
+
+/* Number text (1/3 etc) */
+
+
+/* The dots/bullets/indicators */
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+.about-ideation{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.about-content{
+  display: flex;
+  align-items: center;
+justify-content: center;
+  /* margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 40px;
+  margin-bottom: 40px; */
+}
+
+.about-desc{
+  width: 600px;
+  padding: 40px;
+}
+
+
+
+
+
+
+
+
+.contact-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.contact-desc{
+  text-align: left;
+  margin: 20px;
+  line-height: 0.4;
+}
+
+.contact-img{
+  margin: 20px;
+  width: 500px;
+  height: 400px;
+  
+}
+
+.Contact-us{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.map{
+  width: 500px;
+  height: 400px;
+  
+}
+
+
+
+.down-arrow{
+  line-height: 0.4;
+  /* position: relative; */
+}
+
+
+
+
+.shedule{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shedule-head{
+  text-align: center;
+}
+
+.line{
+  border-left: 6px solid green;
+  height: 15px;
+}
+
+.shedule-line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.shedule-desc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  width: 700px;
+  /* justify-content: space-between; */
+}
+
+.shedule-event .shedule-event1{
+  font-size: 10px;
+}
+
+h5{
+  font-size: 10px;
+}
+
+/* 
+#line {
+  background-color: red;
+}
+
+.custom-hr {
+  width: 100px;
+  margin-top: 10px !important;
+  margin-bottom: 50px !important;
+  height: 7px;
+  background-color: red;
+} */
+
+
+
+
+.rules{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.rule-desc{
+  width: 850px;
+ 
+}
+.rule-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+.sponsor-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.sponsor-desc{
+  width: 600px;
+  padding: 40px;
+  padding-left: 60px;
+  margin-left: 100px;
+  
+}
+
+.sponsor-container{
+  margin-right: 10px;
+  /* padding-left: 250px; */
+}
+
+.sponsor-ideation{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.video-sec1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-sec2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.videos{
+  text-align: center;
+}
+
+.video1{
+  margin-right: 40px;
+  margin-top: 20px;
+}
+.video2{
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+/* footer   ------------------------------------------- */
+
+footer{
+  background-color: #141837;
+}
+
+
+
+.footer-content{
+  display: flex;
+  color: #f2a70d;
+  justify-content: space-between;
+  margin-left: 65px;
+  margin-right: 65px;
+  
+}
+
+.logos{
+  display: flex;
+  color: #f2a70d;
+  font-size: 30px;
+}
+
+.bx1{
+  margin: 0 20px 0 0;
+}
+
+
+
 @media screen and (max-width: 680px) {
   .mytimedescription {
     font-size: 18px;
@@ -94,6 +391,73 @@ a.nav-link:hover {
 
   .timer {
     width: 60px;
+  }
+  .about-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .about-desc{
+    width: 500px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }
+
+  .sponsor-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .sponsor-desc{
+    width: 500px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-left: 0px;
+  }
+
+  .contact-content{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .map{
+    
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .contact-desc{
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .rule-desc{
+    font-size: 15px;
+    width: 350px;
+  }
+  .rule-content{
+    align-items: center;
+    justify-content: center;
+  }
+
+  .video-sec1{
+    display: flex;
+    flex-direction: column;
+  }
+  .video1{
+    margin-right: 0px;
+  }
+  .video2{
+    margin-left: 0px;
   }
 }
 
@@ -113,5 +477,14 @@ a.nav-link:hover {
 
   .timer {
     width: 50px;
+  }
+
+  .about-desc{
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    padding: 10px;
   }
 }
