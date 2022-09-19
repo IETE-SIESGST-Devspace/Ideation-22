@@ -17,10 +17,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 
-<body onload="typeWriter()" id="page-top">
+<body onload="typeWriter()" id="page-top" style="background-color: #F2A70D; width: 100%;">
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top uk-visible@m shadow-sm" id="mainNav">
         <div class="container">
             <a class="" href="./index.html">
@@ -197,6 +199,361 @@
     </header>
 
     <a class="toptop btn btn-sm btn-dark" href="" uk-totop uk-scroll></a>
+
+
+
+
+
+
+    <section id="about">
+
+        <div class="about">
+            <div class="about-ideation">
+                <h1 class="about-heading">About Ideation</h1>
+                <!-- <hr class="custom-hr uk-align-center" id="line"> -->
+                <h4 class="down-arrow">. <br>
+                    . <br>
+                    .<br>
+                    . <br>
+                    <i class='bx bx-chevron-down' ></i></h4>
+
+            </div>
+            <div class="about-content">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+
+                        <img src="./assets/img/about1.jpg" style="width:100%">
+
+                    </div>
+
+                    <div class="mySlides fade">
+
+                        <img src="./assets/img/about2.jpg" style="width:100%">
+
+                    </div>
+
+                    <div class="mySlides fade">
+
+                        <img src="./assets/img/about3.jpg" style="width:100%">
+
+                    </div>
+
+                </div>
+                <div class="about-desc">
+                    <big style="color: #023e8a;">IDEATION</big>, provides a common platform for great thinkers and
+                    enthusiasts to come up with technically
+                    productive and creative ideas. It is a medium through which students can <span
+                        style="color: #023e8a;">brainstorm solutions for
+                        real-life
+                        problem statements</span>. Our aim is to give back to the society what is taught to us, and
+                    inculcate
+                    technology in
+                    real-life problem solutions for the betterment of the society. The solutions can be taken up as a
+                    firsthand
+                    project in the future. The participants will be given a problem statement which will be relevant to
+                    the
+                    society and they will be given time to bridge the gaps that our <span style="color: #023e8a;">NGO
+                        partners</span> face to implement such
+                    ideas.
+                    At the end of the session the participants have to present their ideas and the most appropriate,
+                    optimal,
+                    practical and unique idea wins the competition.The winners will be given <span
+                        style="color: #023e8a;">cash prizes and goodies</span>.
+                    The
+                    participants can be from various technical backgrounds.
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+
+            slides[slideIndex - 1].style.display = "block";
+
+            setTimeout(showSlides, 3000); // Change image every 2 seconds
+        }
+    </script>
+
+<div class="hori-line">
+<div class="hrline"></div>
+</div>
+
+<section id="schedule">
+    <div class="shedule">
+        <div class="card" style="width: 700px; border-radius: 10px;">
+            <div class="card-body">
+             <div class="shedule-head">
+                <h1>Schedule</h1>
+                <h4 class="down-arrow">. <br>
+                    . <br>
+                    .<br>
+                    . <br>
+                    <i class='bx bx-chevron-down' ></i></h4>
+             </div>
+             <div class="shedule-content">
+                  <div class="shedule-line">
+                    <div class="line"></div>
+                  </div>
+                  <div class="shedule-desc">
+                    <div class="shedule-time1">
+                        <p>10:30-11:00am</p>
+                    </div>
+                    <div class="shedule-box">
+                        <box-icon name='square'></box-icon>
+                    </div>
+                    <div class="shedule-event">
+                        <h5>Inaugration</h5>
+                    </div>
+                  </div>
+                  <div class="shedule-line">
+                    <div class="line"></div>
+                  </div>
+                  <div class="shedule-desc">
+                    <div class="shedule-event1">
+                        <h5>PROBLEM STATEMENTS WILL BE SHARED.</h5>
+                    </div>
+                    <div class="shedule-box">
+                        <box-icon name='square'></box-icon>
+                    </div>
+                    <div class="shedule-time">
+                        <p>11:00 am</p>
+                    </div>
+                  </div>
+
+                  <div class="shedule-line">
+                    <div class="line"></div>
+                  </div>
+                  <div class="shedule-desc">
+                    <div class="shedule-time1">
+                        <p>11.15-1:00 pm</p>
+                    </div>
+                    <div class="shedule-box">
+                        <box-icon name='square'></box-icon>
+                    </div>
+                    <div class="shedule-event">
+                        <h5>BRAINSTORMING SESSION</h5>
+                    </div>
+                  </div>
+                  <div class="shedule-line">
+                    <div class="line"></div>
+                  </div>
+                  <div class="shedule-desc">
+                    <div class="shedule-event1">
+                        <h5>LUNCH</h5>
+                    </div>
+                    <div class="shedule-box">
+                        <box-icon name='square'></box-icon>
+                    </div>
+                    <div class="shedule-time">
+                        <p>1:00-1:30 pm</p>
+                    </div>
+                  </div>
+
+                  <div class="shedule-line">
+                    <div class="line"></div>
+                  </div>
+                  <div class="shedule-desc">
+                    <div class="shedule-time1">
+                        <p>1:30 pm</p>
+                    </div>
+                    <div class="shedule-box">
+                        <box-icon name='square'></box-icon>
+                    </div>
+                    <div class="shedule-event">
+                        <h5>JUDGING SESSION</h5>
+                    </div>
+                  </div>
+                  <div class="shedule-line">
+                    <div class="line"></div>
+                  </div>
+                  <div class="shedule-desc">
+                    <div class="shedule-event1">
+                        <h5>VALEDICTORY</h5>
+                    </div>
+                    <div class="shedule-box">
+                        <box-icon name='square'></box-icon>
+                    </div>
+                    <div class="shedule-time">
+                        <p>5:00 pm</p>
+                    </div>
+                  </div>
+             </div>
+            </div>
+          </div>
+    </div>
+</section>
+
+<div class="hori-line">
+    <div class="hrline"></div>
+    </div>
+
+
+    <section class="rule" id="rules">
+        <div class="rules">
+            <h1>Rules</h1>
+            <h4 class="down-arrow">. <br>
+                . <br>
+                . <br>
+                 . <br>
+                <i class='bx bx-chevron-down' ></i></h4>
+            <!-- <hr class="custom-hr uk-align-center" id="line"> -->
+        </div>
+        <div class="rule-content">
+            <div class="rule-desc">
+                <p><i class='bx bxs-circle' ></i>All participants must strictly follow the schedule attached, to avoid delays and inconveniences.
+                <br>
+                <i class='bx bxs-circle' ></i>Event Co-ordinators have been assigned, Participants can approach them in case of any distress or
+                    issues.<br>
+                <i class='bx bxs-circle' ></i>Kindly do not leave the assigned meet. If you need anything, please approach the Event
+                    co-ordinators.<br>
+                <i class='bx bxs-circle' ></i>Participants must upload their presentation on the given Google drive link.(Link will be posted in
+                    WhatsApp group).<br>
+                <i class='bx bxs-circle' ></i>Participants must be ready with their presentations by the given time i.e. before the first round of
+                    judging begins.<br>
+                <i class='bx bxs-circle' ></i>Since the event is being conducted online, all participants are required to have stable internet
+                    connection for the entirety of the event.<br>
+                <i class='bx bxs-circle' ></i>All participants are requested to stay within the meet till the end of the program. Participation
+                    certificates would be distributed only during the valedictory ceremony.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="hori-line">
+        <div class="hrline"></div>
+        </div>
+
+<section id="video">
+    <div class="videos">
+        <h1>Videos</h1>
+        <h4 class="down-arrow">. <br>
+            . <br>
+            . <br>
+            . <br>
+            <i class='bx bx2 bx-chevron-down' ></i></h4>
+    </div>
+    <div class="video-sec1">
+       
+          <video class="video1" style="width: 300px; height: 200px;" src="./assets/Aditi Sawant.mp4" controls=""></video>
+          <video class="video2" style="width: 300px; height: 200px;"" src="./assets/Aditi Sawant.mp4" controls=""></video>
+    </div>
+    <div class="video-sec2">
+        <div class="video-container2">
+        <video class="video3" style="width: 300px; height: 200px;" src="./assets/Aditi Sawant.mp4" controls=""></video>
+    </div>
+</div>
+</section>
+
+<div class="hori-line">
+    <div class="hrline"></div>
+    </div>
+
+    <section class="sponsor">
+
+        <div class="sponsor">
+            <div class="sponsor-ideation">
+                <h1 class="Sponsor-heading">Our Sponsors</h1>
+                <!-- <hr class="custom-hr uk-align-center" id="line"> -->
+                <h4 class="down-arrow">. <br>
+                    . <br>
+                    . <br>
+                    . <br>
+                <i class='bx bx-chevron-down' ></i></h4>
+
+            </div>
+            <div class="sponsor-content">
+                <div class="sponsor-container">
+
+                    <img src="./assets/img/logos/logobulb.png" alt="">
+                </div>
+                <div class="sponsor-desc">
+                   <big style="color: #023e8a;">HAVE</big> you seen political debates and discussion on TV about Air pollution? Do you think it would
+                    really solve the problem?<span style="color: #023e8a;"> NEVER</span>, because problems don't get resolved through discussions they get
+                    resolved through actions. That's why we made <span style="color: #023e8a;">RIDENET</span>, where we are trying to bring all responsible
+                    citizens who want to make a difference on to one digital platform to address <span style="color: #023e8a;">the ever growing
+                    problem of traffic and air pollution through ridesharing</span>, it is one of the most practical solutions
+                    where we can share empty seats of our car or bike with someone travelling in the same route and
+                    share the travel cost with them. <span style="color: #023e8a;">ONLY VERIFIED MEMBERS ARE ALLOWED TO RIDESHARE. FEMALE MEMBERS CAN
+                    CHOOSE TO SHARE RIDE WITH FEMALE</span>. <a href="">Learn more.</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <div class="hori-line">
+        <div class="hrline"></div>
+        </div>
+
+
+<section id="contact">
+    <div class="contact">
+        <div class="Contact-us">
+            <h1>Contact Us</h1>
+            <h4 class="down-arrow">. <br>
+                . <br>
+                . <br>
+                . <br>
+                <i class='bx bx-chevron-down' ></i></h4>
+            <!-- <hr class="custom-hr uk-align-center" id="line"> -->
+        </div>
+        <div class="contact-content">
+            <div class="contact-img">
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7543.104394394796!2d73.01942760712097!3d19.03944424643569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3db5e2c85cd%3A0xef26c52d7d73816e!2sSIES%20Graduate%20School%20of%20Technology!5e0!3m2!1sen!2sin!4v1597752442292!5m2!1sen!2sin"
+                        width="100%" height="100%" frameborder="0"
+                        style="border: 0; border-radius: 10px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+            <div class="contact-desc">
+                <a class="navbar-brand" href="./index.html"><img width="150px" class="p-2"
+                        src="./assets/img/logos/Ideation logo.png" alt="" /></a>
+
+                <p>The IETE and Ideation logo is copyright under IETE.ORG <br>
+                    ISF SIESGST operates indepedently under IETE.ORG</p>
+
+                <p>Site Designed & Maintained by : Techical Team @IETESIESGST</p>
+                <p><i class='bx bx-envelope'></i>Email: iete-council@siesgst.ac.in <br>
+                    <i class='bx bx-phone'></i>+91 94237 76633 <br>
+                    <i class='bx bx-phone'></i>+91 98923 01801
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+    <footer>
+        <div class="footer">
+            <div class="footer-content">
+                <p>Copyright 2022|Ideation</p>
+                <div class="logos">
+                    <a href=""><i class='bx bx1 bxl-google-plus-circle'></i></a>
+                    <a href=""><i class='bx bx1 bxl-twitter'></i></a>
+                    <a href=""><i class='bx bx1 bxl-facebook-circle'></i></a>
+                    <a href=""><i class='bx bx1 bxl-instagram-alt'></i></a>
+                </div>
+                <p>Term of use|made by Ideation</p>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit-icons.min.js"></script>
